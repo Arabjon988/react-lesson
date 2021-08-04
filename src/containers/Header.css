@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: rgb(43, 43, 39);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+}
+
+.section__right{
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 70%;
+    height: 100%;
+    margin-left: 30%;
+}
+
+.section__right button{
+    color: whitesmoke;
+    margin: 5px;
+}
+
+.navbar h2{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin: 5px 13px;
+    padding: 3px;
+}
+
+.down{
+    justify-content: center;
+}
+
+h3{
+    margin-left: -98px;
+    margin-top: 30px;
+    cursor: text;
+    margin-bottom: 10px;
+}
+
+.sidebar{
+    position: absolute;
+    display: grid;
+    align-items: center;
+    width: 30%;
+}
+
+span{
+    display: flex;
+    font-size: 15px;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+span:hover{
+    background-color: rgb(243, 209, 209);
+}
+
+span p{
+    padding-left: 25px;
+font-size: 14px;
+font-weight: 500;
+color: rgb(43, 43, 39);
+text-align: start;
+
+}
+
+.sidebar h1{
+    position: absolute;
+}
+
+.signIn{
+    position: relative;
+    display: flex;
+    width: 30%px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(31, 31, 44);
+    height: 50px;
+    padding-left: 32px ;
+}
+
+.signIn i{
+    font-size: 30px;
+    padding-top: 9px;
+    color: whitesmoke;
+}
+
+.signIn h2{
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.navbar h2:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.navbar h2:last-child{
+    align-items: end;
+    margin-right: 15px;
+    margin-left: 520px;
+    text-align: center;
+}
